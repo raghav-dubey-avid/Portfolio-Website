@@ -13,11 +13,9 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
+          title="Requirement Analysis and Planning"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="We'll begin by identifying project requirements and objectives, aligning them with user needs and business goals. This includes mapping out the project scope, defining key functionalities, and creating a detailed project timeline to ensure alignment with all stakeholders."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Design and Development"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="In this phase, I will focus on designing and developing the application’s user interface, ensuring a seamless user experience across various devices. This involves creating interactive prototypes, optimizing performance, and ensuring cross-browser compatibility to enhance user engagement and participation."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -43,16 +39,11 @@ const Approach = () => {
             ]}
             dotSize={2}
           />
-          {/* Radial gradient for the cute fade */}
-          {/* remove this one */}
-          {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Testing and Deployment"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Post-development, rigorous testing will be conducted to identify and resolve any issues. The application will then be deployed using containerization technologies like Docker to ensure a smooth and efficient deployment process. Continuous integration and delivery practices will be implemented to maintain and update the application seamlessly."
         >
           <CanvasRevealEffect
             animationSpeed={3}

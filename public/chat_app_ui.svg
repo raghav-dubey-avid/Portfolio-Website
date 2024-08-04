@@ -1,0 +1,36 @@
+<svg width="465" height="302" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .background { fill: #E3E3E3; }
+    .phone { fill: #4C4F90; stroke: #000; stroke-width: 2; rx: 25; ry: 25; }
+    .screen { fill: #FFF; rx: 15; ry: 15; }
+    .header { fill: #4C4F90; }
+    .text { font: 16px sans-serif; fill: #FFF; }
+    .message { font: 14px sans-serif; fill: #000; }
+    .timestamp { font: 12px sans-serif; fill: #999; }
+    .avatar { fill: #F2C94C; stroke: #000; stroke-width: 1; }
+    .chat-circle { fill: #6FCF97; }
+  </style>
+  <rect width="100%" height="100%" class="background"/>
+  
+  <!-- Left phone -->
+  <rect x="5%" y="10%" width="40%" height="80%" class="phone"/>
+  <rect x="7%" y="12%" width="36%" height="76%" class="screen"/>
+  <rect x="7%" y="12%" width="36%" height="10%" class="header"/>
+  <text x="9%" y="18%" class="text">Chat with your friends</text>
+  
+  <!-- Right phone -->
+  <rect x="55%" y="10%" width="40%" height="80%" class="phone"/>
+  <rect x="57%" y="12%" width="36%" height="76%" class="screen"/>
+  <rect x="57%" y="12%" width="36%" height="10%" class="header"/>
+  <text x="59%" y="18%" class="text">Fiona</text>
+
+  <!-- Chat messages -->
+  <circle cx="9%" cy="30%" r="4%" class="avatar"/>
+  <circle cx="61%" cy="30%" r="4%" class="avatar"/>
+  <text x="10%" y="31%" class="message">Johnny Doe</text>
+  <text x="10%" y="34%" class="message">Lorem Ipsum is simply...</text>
+  <text x="10%" y="37%" class="timestamp">08:10</text>
+  <text x="62%" y="31%" class="message">Lorem Ipsum is simply...</text>
+  <text x="62%" y="34%" class="message">Okey 😊</text>
+  <text x="62%" y="37%" class="timestamp">18:00</text>
+</svg>
